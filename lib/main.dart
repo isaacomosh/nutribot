@@ -15,6 +15,6 @@ class Nutribot extends StatefulWidget {
 class _NutribotState extends State<Nutribot> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: Home());
+    return MaterialApp(debugShowCheckedModeBanner: false, home: Home());
   }
 }
